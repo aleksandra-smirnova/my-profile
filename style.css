@@ -1,0 +1,82 @@
+/*Colors and fonts*/
+body {
+	background: rgb(230, 230, 230);
+	color: rgb(50, 50, 50);
+	font-family: Helvetica;
+	font-size: 16px;
+}
+h1, h2 {
+	font-family: Georgia;
+}
+h1 {
+	color:  #7b1d6c ;
+	font-size: 34px;
+	font-weight: lighter;
+}
+	
+h2 {
+	color: rgb(100, 100, 100);
+	font-size: 22px;
+	font-weight: lighter;
+}
+a {
+	text-decoration: none;
+	color:  #bb38a6 ;
+}
+a:hover {
+	color: black;
+}
+#logo { /* select the element with the id="logo" */
+  width: 150px;
+  border-radius: 50%;
+}
+#introdution p
+{
+margin-bottom: 40px; 
+}
+.box {
+    background: white;                         /* Белый фон */
+    padding: 40px;                             /* Внутренний отступ */
+    border-radius: 4px;                        /* Скругление углов */
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);/* Лёгкая тень */
+    margin: 20px 0px;
+
+}
+.MainBox
+{
+	width: auto; /* Ширина блока */
+    margin: 20px auto; /* Выравнивание по центру */
+    text-align: center; 
+}
+.btn
+{
+	background-color: #bb38a6;
+	color:white;
+	padding: 15px 20px; 
+	border-radius: 4px; 
+}
+.btn:hover{
+	background-color: black;
+	color:white;
+}
+.list-in-line{
+	  list-style: none; /* Убираем маркеры (точки) */
+    padding: 0; /* Убираем внутренние отступы */
+    margin: 0; /* Убираем внешние отступы */
+}
+.list-in-line li
+{
+	display: inline;
+	padding: 10px;
+}
+.list-in-line i
+{
+	font-size:50px;
+	color: ;
+}
+.list-in-line i:hover
+{
+	
+	color:black;
+}
+
